@@ -8,7 +8,12 @@ p {
     color: red;
 }
 
-#one {
+p:hover {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/* #one {
     background-color: blue;
 }
 
@@ -27,7 +32,7 @@ p {
 
 .bordered {
     border: 3px solid black;
-}
+} */
 
 /* 
 .name for class styles
@@ -44,9 +49,9 @@ ID > class > generic selectors > *
     background-color: black;
 }
 
-.shadow {
+/* .shadow {
     text-shadow: 2px 2px #ff0000;
-}
+} */
 
 .justify {
     text-transform: uppercase;

@@ -1,0 +1,22 @@
+.wrapper {
+    margin: 5px;
+}
+
+.face {
+    width: 75px;
+    height: 75px;
+    border: 2px solide black;
+    background-color: yellow;
+    border-radius: 50px;
+}
+
+.lefteye {
+    width: 6px;
+    height: 6px;
+    border: 1px solid black;
+    border-radius: 3px;
+    z-index: 1;
+    position: relative;
+    left: 32px;
+    
+}
