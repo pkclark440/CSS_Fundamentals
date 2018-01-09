@@ -1,0 +1,53 @@
+body {
+    background-color: goldenrod;
+}
+
+p {
+    font-family: sans-serif;
+    word-spacing: 10px;
+    color: red;
+}
+
+#one {
+    background-color: blue;
+}
+
+#two {
+    background-color: darkslategrey;
+}
+
+#three {
+    font-family: cursive;
+    color: white;
+}
+
+#four {
+    background-color: lightseagreen
+}
+
+.bordered {
+    border: 3px solid black;
+}
+
+/* 
+.name for class styles
+
+#name for ID styles 
+
+IDs take precendence over class
+
+ID > class > generic selectors > *
+
+*/
+
+.background-black {
+    background-color: black;
+}
+
+.shadow {
+    text-shadow: 2px 2px #ff0000;
+}
+
+.justify {
+    text-transform: uppercase;
+}
