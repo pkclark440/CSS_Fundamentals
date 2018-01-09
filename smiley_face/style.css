@@ -18,5 +18,108 @@
     z-index: 1;
     position: relative;
     left: 32px;
-    
+    top: 26px;
+    background-color: black;
+}
+
+#inner-left {
+    width: 4px;
+    height: 4px;
+    border: 1px solid white;
+    border-radius: 2px;
+    position: relative;
+    left: 10%;
+    top: 1px;
+    background-color: white;
+}
+
+.left-pupil {
+    width: 3px;
+    height: 3px;
+    border-radius: 100%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    background-color: green;
+}
+
+.left-eyebrow {
+    width: 10px;
+    height: 2px;
+    background-color: black;
+    position: relative;
+    top: 25px;
+    left: 32px;
+}
+
+.righteye {
+    width: 6px;
+    height: 6px;
+    border: 1px solid black;
+    border-radius: 3px;
+    z-index: 1;
+    position: relative;
+    left: 54px;
+    top: 18px;
+    background-color: black;
+}
+
+#inner-right {
+    width: 4px;
+    height: 4px;
+    border: 1px solid white;
+    border-radius: 3px;
+    position: relative;
+    left: 10%;
+    top: 1px;
+    background-color: white;
+}
+
+.right-pupil {
+    width: 3px;
+    height: 3px;
+    border-radius: 100%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    background-color: green;
+}
+
+.right-eyebrow {
+    width: 10px;
+    height: 2px;
+    background-color: black;
+    position: relative;
+    top: 27px;
+    left: 54px;
+}
+
+.mouth {
+    width: 30px;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 0px 0px 45px 45px;
+    margin: 16px;
+    position: relative;
+    top: 1em;
+    left: 1em;
+    background-color: black;
+}
+
+.tongue {
+    background-color: pink;
+    width: 15px;
+    height: 4px;
+    border-radius: 10px;
+    position: relative;
+    top: 50%;
+    left: 5px;
+}
+
+.teeth {
+    background-color: white;
+    width: 30px;
+    height: 2px;
+    position: relative;
+    top: 0%;
 }
